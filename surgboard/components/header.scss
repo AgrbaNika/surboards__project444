@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__list {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: rem(16px);
+    
+}
+
+.menu { 
+    flex: 1;
+    display: flex;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contacts__phone {
+    color: #fff;
+    font-size:rem(24px);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-graph__icon-elem {
+    width: rem(12px);
+    height: rem(12px);
+    margin-right: rem(6px);
+}
+
+.contacts-graph__icon {
+    margin-right: rem(4px);
+}
+
